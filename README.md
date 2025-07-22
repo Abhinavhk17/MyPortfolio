@@ -1,59 +1,165 @@
-# MyPortfolio
+# My Portfolio Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+A modern, responsive portfolio website built with Angular 20, featuring smooth animations, professional design, and GitHub Pages deployment.
 
-## Development server
+## 🌟 Features
 
-To start a local development server, run:
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Modern UI**: Clean, professional design with smooth animations
+- **Interactive Sections**: 
+  - Hero section with call-to-action buttons
+  - Skills showcase with technology tags
+  - Project portfolio with hover effects
+  - Professional experience timeline
+  - Resume download functionality
+- **Smooth Navigation**: Fixed navigation bar with smooth scrolling
+- **GitHub Pages Ready**: Automated deployment with GitHub Actions
 
-```bash
-ng serve
+## 🚀 Live Demo
+
+Visit the live website: [Your Portfolio URL](https://yourusername.github.io/MyPortfolio/)
+
+## 🛠️ Tech Stack
+
+- **Framework**: Angular 20
+- **Styling**: CSS3 with custom properties
+- **Fonts**: Inter from Google Fonts
+- **Deployment**: GitHub Pages
+- **CI/CD**: GitHub Actions
+
+## 📂 Project Structure
+
+```
+src/
+├── app/
+│   ├── app.ts              # Main component with portfolio logic
+│   ├── app.html            # Portfolio HTML template
+│   ├── app.css             # Portfolio styles
+│   └── app.routes.ts       # Routing configuration
+├── assets/
+│   ├── profile.jpg         # Your profile picture
+│   ├── project1.jpg        # Project screenshots
+│   ├── project2.jpg
+│   ├── project3.jpg
+│   └── resume.pdf          # Your resume file
+└── styles.css              # Global styles
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🏗️ Setup & Installation
 
-## Code scaffolding
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/MyPortfolio.git
+   cd MyPortfolio
+   ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-```bash
-ng generate component component-name
-```
+3. **Run development server**
+   ```bash
+   npm start
+   ```
+   Navigate to `http://localhost:4200/`
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+4. **Build for production**
+   ```bash
+   npm run build:prod
+   ```
 
-```bash
-ng generate --help
-```
+## 🎨 Customization
 
-## Building
+### Personal Information
+Edit the following files to customize with your information:
 
-To build the project run:
+1. **Profile & Content** (`src/app/app.html`):
+   - Update name, title, and description in the hero section
+   - Modify skills in the skills section
+   - Update projects with your own work
+   - Add your professional experience
+   - Update footer information
 
-```bash
-ng build
-```
+2. **Profile Picture** (`src/assets/profile.jpg`):
+   - Replace with your professional headshot
+   - Recommended size: 400x400px
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+3. **Project Images** (`src/assets/`):
+   - Add screenshots of your projects
+   - Replace project1.jpg, project2.jpg, project3.jpg
+   - Recommended size: 600x400px
 
-## Running unit tests
+4. **Resume** (`src/assets/resume.pdf`):
+   - Replace with your actual resume PDF
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Styling
+- **Colors**: Modify CSS custom properties in `src/app/app.css`
+- **Fonts**: Update font imports in `src/styles.css`
+- **Layout**: Adjust responsive breakpoints and grid layouts
 
-```bash
-ng test
-```
+## 🌐 Deploy to GitHub Pages
 
-## Running end-to-end tests
+### Automatic Deployment (Recommended)
 
-For end-to-end (e2e) testing, run:
+1. **Push to GitHub**:
+   ```bash
+   git add .
+   git commit -m "Initial portfolio setup"
+   git push origin main
+   ```
 
-```bash
-ng e2e
-```
+2. **Enable GitHub Pages**:
+   - Go to your repository settings
+   - Navigate to "Pages" section
+   - Select "GitHub Actions" as source
+   - The workflow will automatically deploy your site
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### Manual Deployment
 
-## Additional Resources
+1. **Install angular-cli-ghpages**:
+   ```bash
+   npm install -g angular-cli-ghpages
+   ```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. **Deploy**:
+   ```bash
+   npm run deploy
+   ```
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive with breakpoints for:
+- **Desktop**: 1200px and above
+- **Tablet**: 768px - 1199px  
+- **Mobile**: Below 768px
+
+## 🔧 Development Commands
+
+- `npm start` - Start development server
+- `npm run build` - Build for development
+- `npm run build:prod` - Build for production with GitHub Pages base href
+- `npm test` - Run unit tests
+- `npm run deploy` - Build and deploy to GitHub Pages
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Contact
+
+- **Email**: your.email@example.com
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+
+---
+
+⭐ Don't forget to give this project a star if you found it helpful!
